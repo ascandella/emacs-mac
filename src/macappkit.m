@@ -3251,6 +3251,7 @@ static CGRect unset_global_focus_view_frame (void);
 #endif
     }
 
+  [[emacsWindow toolbar] setVisible:NO];
   [emacsController updatePresentationOptions];
 }
 
